@@ -1,6 +1,7 @@
 # Code your solution here!
 def run_guessing_game
   puts "Guess a number between 1 and 6."
+<<<<<<< HEAD
   input = gets.chomp()
  while input != "exit"
     computer_guess = rand(1..6)
@@ -29,4 +30,5 @@ def run_guessing_game
     "Invalid number!"
   end 
  
+>>>>>>> 9b8a0ec760486b192c06ede812d59072452a3b2b
 end 
